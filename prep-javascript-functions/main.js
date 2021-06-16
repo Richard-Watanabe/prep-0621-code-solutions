@@ -53,3 +53,17 @@ function getCircleCircumference(radius) {
 
 var circumference = getCircleCircumference(5);
 console.log(circumference);
+
+function getFullName(firstName, lastName) {
+  return (firstName + ' ' + lastName);
+}
+
+var fullName = getFullName('Richard', 'Watanabe');
+console.log(fullName);
+
+function cube(number) {
+  return Math.cube(number);
+}
+
+var cubed = cube(5);
+console.log(cubed);
