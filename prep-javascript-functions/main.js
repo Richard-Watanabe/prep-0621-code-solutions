@@ -62,7 +62,7 @@ var fullName = getFullName('Richard', 'Watanabe');
 console.log(fullName);
 
 function cube(number) {
-  return Math.cube(number);
+  return Math.pow(number, 3);
 }
 
 var cubed = cube(5);
