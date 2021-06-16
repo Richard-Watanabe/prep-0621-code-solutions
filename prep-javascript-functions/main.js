@@ -25,3 +25,17 @@ function getGreeting(name) {
 
 var greeting = getGreeting('Tim');
 console.log(greeting);
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+var product = addAndMultiplyBy5(10, 5);
+console.log(product);
+
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+
+var quotient = multiplyAndDivideBy5(35, 10);
+console.log(quotient);
